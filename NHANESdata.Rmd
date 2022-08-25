@@ -1,0 +1,102 @@
+---
+title: "NHANES DATA"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+nhanesTable: displays the name of tables corresponding to the year and the type of survey
+
+
+*Demographics*
+```{r}
+library(nhanesA)
+
+#nhanesTables("DEMO",2007)
+
+nhanesTables("DEMO",2017)
+
+
+```
+
+
+```{r}
+#Demographics from the year 2007-2018
+dem7_8 <- nhanes("DEMO_E")
+dem9_10 <- nhanes("DEMO_F")
+dem11_12 <- nhanes("DEMO_G")
+dem13_14 <- nhanes("DEMO_H")
+dem15_16 <- nhanes("DEMO_I")
+dem17_18 <- nhanes("DEMO_J")
+
+
+ 
+
+```
+
+
+
+```{r}
+library(dplyr) #merge tables using full_join
+library(purrr) # package which helps combine more than two tables
+
+dem7_18<- list(dem7_8,dem9_10,dem11_12,dem13_14,dem15_16,dem17_18) %>% reduce(full_join, by = "SEQN")
+head(dem7_18,5)
+
+```
+
+*EXAMINATION*
+
+```{r}
+exam7_8<- nhanesTables('EXAM', 2007)
+exam7_8
+```
+
+*LABORATORY*
+```{r}
+nhanesTables('LAB', 2007)
+
+
+```
+
+
+*DIETARY*
+```{r}
+
+nhanesTables('DIET', 2007)
+
+```
+
+*Questionnaire*
+```{r}
+
+nhanesTables('Q', 2007)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
