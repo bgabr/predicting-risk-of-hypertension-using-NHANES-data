@@ -1,7 +1,6 @@
 ---
 title: "NHANES DATA"
 output:
-  pdf_document: default
   html_document: default
 ---
 
@@ -16,9 +15,12 @@ nhanesTable: displays the name of tables corresponding to the year and the type 
 ```{r}
 library(nhanesA)
 
-#nhanesTables("DEMO",2007)
-
-nhanesTables("DEMO",2017)
+nhanesTables('DEMO', 2007) #2007 - 2008
+nhanesTables('DEMO', 2009) #2009 - 2010
+nhanesTables('DEMO', 2011) #2011 - 2012
+nhanesTables('DEMO', 2013) #2013 - 2014
+nhanesTables('DEMO', 2015) #2015 - 2016
+nhanesTables('DEMO', 2017) #2017 - 2018
 
 
 ```
@@ -52,14 +54,22 @@ head(dem7_18,5)
 *EXAMINATION*
 
 ```{r}
-exam7_8<- nhanesTables('EXAM', 2007)
-exam7_8
+nhanesTables('EXAM', 2007) #2007 - 2008
+nhanesTables('EXAM', 2009) #2009 - 2010
+nhanesTables('EXAM', 2011) #2011 - 2012
+nhanesTables('EXAM', 2013) #2013 - 2014
+nhanesTables('EXAM', 2015) #2015 - 2016
+nhanesTables('EXAM', 2017) #2017 - 2018
 ```
 
 *LABORATORY*
 ```{r}
-nhanesTables('LAB', 2007)
-
+nhanesTables('LAB', 2007) #2007 - 2008
+nhanesTables('LAB', 2009) #2009 - 2010
+nhanesTables('LAB', 2011) #2011 - 2012
+nhanesTables('LAB', 2013) #2013 - 2014
+nhanesTables('LAB', 2015) #2015 - 2016
+nhanesTables('LAB', 2017) #2017 - 2018
 
 ```
 
@@ -67,15 +77,24 @@ nhanesTables('LAB', 2007)
 *DIETARY*
 ```{r}
 
-nhanesTables('DIET', 2007)
+nhanesTables('DIET', 2007) #2007 - 2008
+nhanesTables('DIET', 2009) #2009 - 2010
+nhanesTables('DIET', 2011) #2011 - 2012
+nhanesTables('DIET', 2013) #2013 - 2014
+nhanesTables('DIET', 2015) #2015 - 2016
+nhanesTables('DIET', 2017) #2017 - 2018
 
 ```
 
 *Questionnaire*
 ```{r}
 
-nhanesTables('Q', 2007)
-
+nhanesTables('Q', 2007) #2007 - 2008
+nhanesTables('Q', 2009) #2009 - 2010
+nhanesTables('Q', 2011) #2011 - 2012
+nhanesTables('Q', 2013) #2013 - 2014
+nhanesTables('Q', 2015) #2015 - 2016
+nhanesTables('Q', 2017) #2017 - 2018
 
 ```
 
