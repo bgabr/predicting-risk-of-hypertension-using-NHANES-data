@@ -1,0 +1,63 @@
+RISK FACTORS
+Note: [] are repeated risk factors
+
+age
+resting heart rate
+uric acid levels
+blood glucose levels/ diabetes
+kidney function/ kidney disease
+exercise (ie. sedentary or not)
+gender
+weight (overweight, obese etc), BMI, waist circumference
+family history of hypertension
+cholesterol/ lipid levels
+race
+smoking status
+education
+income
+alcohol consumption
+
+
+
+Combined impact of risk factors on the subsequent development of 
+hypertension
+(https://www.webofscience.com/wos/woscc/full-record/WOS:000467339100007)
+age
+resting heart rate
+weight (overweight, obese etc)
+lipid levels
+uric acid levels
+blood glucose levels/ diabetes
+kidney function/ kidney disease
+
+Risk factors and arterial hypertension
+(https://www.webofscience.com/wos/woscc/full-record/WOS:000685988000158)
+exercise
+gender
+family history of hypertension
+	[weight]
+	[cholesterol/ lipid levels]
+
+An artificial neural network approach for predicting hypertension 
+using NHANES data
+(https://www.nature.com/articles/s41598-020-67640-z)
+race
+BMI
+smoking status
+	[gender]
+	[age]
+	[kidney disease]
+	[diabetes]
+
+Factors associated with arterial hypertension: a systematic review
+(https://www.webofscience.com/wos/woscc/full-record/WOS:000538942600025)
+education
+income
+waist circumference
+alcohol consumption
+	[skin colour]
+	[smoking]
+
+
+
+
