@@ -1,23 +1,30 @@
 RISK FACTORS
-Note: [] are repeated risk factors
 
-age
-resting heart rate
+CAN'T FIND:
 uric acid levels
+family history of hypertension
+
+
+DONE:
+-- blood pressure readings?? --
+alcohol consumption
+income
+	race
+	education
+	age
+	gender
+smoking status
+cholesterol/ lipid levels
+weight (overweight, obese etc), BMI, waist circumference
+exercise (ie. sedentary or not)
+resting heart rate
 blood glucose levels/ diabetes
 kidney function/ kidney disease
-exercise (ie. sedentary or not)
-gender
-weight (overweight, obese etc), BMI, waist circumference
-family history of hypertension
-cholesterol/ lipid levels
-race
-smoking status
-education
-income
-alcohol consumption
 
 
+SOURCE:
+
+Note: [] are repeated risk factors
 
 Combined impact of risk factors on the subsequent development of 
 hypertension
